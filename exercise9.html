@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms (WIP)</title>
+</head>
+<body>
+    <p>Back to</p><a href="https://marosaliegayla.github.io/Kodego-Exercises/">Home</a>
+
+   <h1>Learning HTML Form</h1>
+   <h3>(Work In Progress)</h3>
+    <form>      
+        <label>Full Name </label>
+        <input type="text" required /> 
+        <br>
+        <label>Password </label> <input type="password" pattern="[a-z0-5]{8,}" required/>
+        <br>
+        <label>Email Address</label> <input type="email" required/>
+        <br> <br>
+        <label>Status</label> 
+        <label>Single<input type="radio"></label>
+        <label>Married<input type="radio"></label>
+        <label>Widow<input type="radio"></label>
+        <br> <br>
+        <label>Date Of Birth</label> <input type="date" required>
+        <br> <br>
+        <label>Age</label> <input type="number">
+        <br> <br>
+        <label>Government Benefits</label>
+        <label>SSS</label> <input type="checkbox">
+        <label>HDMF</label> <input type="checkbox">
+        <label>PhilHealth</label> <input type="checkbox">
+        <br> <br>
+        <label>Preferred Schedule</label> <input type="time">
+        <br> <br>
+        <label>Payout Options</label>
+        <select name="payout" id="payout">
+            <option value="monthly">Monthly</option>
+            <option value="weekly">Weekly</option>
+        </select>
+        <br> <br>
+        <label>Internet Provider</label> <input type="text">
+        <br> <br>
+        <label>Upload ID Photo</label> <input type="file" name="upload" id="upload">
+        <br> <br>
+        <label> Additional Info: </label>
+        <textarea name="addinfo" id="addinfo" cols="30" rows="10"></textarea>
+        <input type="submit">
+    </form>
+</body>
+</html>
